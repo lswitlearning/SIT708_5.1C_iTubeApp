@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/linkTextView"
+        android:layout_width="347dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="33dp"
+        android:ems="10"
+        android:hint="Youtube Link"
+        android:inputType="text"
+        android:theme="@style/CustomAppTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="225dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="93dp"
+        android:text="Play"
+        android:background="@drawable/bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linkTextView" />
+
+    <Button
+        android:id="@+id/addToPlaylistButton"
+        android:layout_width="225dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="93dp"
+        android:text="Add To PLAYLIST"
+        android:background="@drawable/bg_orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playButton" />
+
+    <Button
+        android:id="@+id/myPlaylistButton"
+        android:layout_width="225dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="93dp"
+        android:text="MY PLAYLIST"
+        android:background="@drawable/bg_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addToPlaylistButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
